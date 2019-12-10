@@ -8601,3 +8601,23 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+/* ////////// ADDED STYLES \\\\\\\\\\ */
+
+.content .actions li .button2 {
+	background-color: white;
+}
+.content2 {
+	background-color: black;
+	color: white;
+	border: solid 1px white;
+}
+.image {
+	border: solid 1px white;
+}
+
+@media (max-width: 736px) {
+	.twobuttons {
+		justify-content: center;
+	}
+}
